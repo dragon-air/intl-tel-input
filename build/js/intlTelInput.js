@@ -20,9 +20,9 @@
     var pluginName = "intlTelInput", id = 1, // give each instance it's own id for namespaced event handling
     defaults = {
         // whether or not to allow the dropdown
-        allowDropdown: true,
+        allowDropdown:true,
         // if there is just a dial code in the input: remove it on blur, and re-add it on focus
-        autoHideDialCode: true,
+        autoHideDialCode: false,
         // add or remove input placeholder with an example number for the selected country
         autoPlaceholder: true,
         // modify the auto placeholder
@@ -38,13 +38,13 @@
         // initial country
         initialCountry: "",
         // don't insert international dial codes
-        nationalMode: true,
+        nationalMode:false,
         // number type to use for placeholders
         numberType: "MOBILE",
         // display only these countries
         onlyCountries: [],
         // the countries at the top of the list. defaults to united states and united kingdom
-        preferredCountries: [ "us", "gb" ],
+        preferredCountries: [ ],
         // display the country dial code next to the selected flag so it's not part of the typed number
         separateDialCode: false,
         // specify the path to the libphonenumber script to enable validation/formatting
