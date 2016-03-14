@@ -36,7 +36,7 @@
         // geoIp lookup function
         geoIpLookup: null,
         // initial country
-        initialCountry: "",
+        initialCountry: "in",
         // don't insert international dial codes
         nationalMode: false,
         // number type to use for placeholders
