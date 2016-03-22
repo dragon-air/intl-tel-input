@@ -17,7 +17,7 @@
 })(function($, window, document, undefined) {
     "use strict";
     
-        var myVar = {{fragmentData.mobile_number.country}};
+        var myVar = "{{fragmentData.mobile_number.country}}";
         
         
         
