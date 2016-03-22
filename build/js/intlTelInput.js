@@ -16,13 +16,7 @@
     }
 })(function($, window, document, undefined) {
     "use strict";
-    
-        var myVar = "{{fragmentData.mobile_number.country}}";
-        
-        
-        
-        
-        console.log(myVar, "Hello, world!");
+
     // these vars persist through all instances of the plugin
     var pluginName = "intlTelInput", id = 1, // give each instance it's own id for namespaced event handling
     defaults = {
@@ -43,7 +37,7 @@
         // geoIp lookup function
         geoIpLookup: null,
         // initial country
-        initialCountry: myVar,
+        initialCountry: "",
         // don't insert international dial codes
         nationalMode: false,
         // number type to use for placeholders
