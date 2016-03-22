@@ -50,7 +50,8 @@
         // specify the path to the libphonenumber script to enable validation/formatting
         utilsScript: ""
         
-      
+      var myVar = 123;
+        console.log(myVar, "Hello, world!");
         
     }, keys = {
         UP: 38,
