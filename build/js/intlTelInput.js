@@ -17,7 +17,7 @@
 })(function($, window, document, undefined) {
     "use strict";
     
-      var myVar = {{fragmentData.code_sent_info.display}};
+      var myVar = 123;
         console.log(myVar, "Hello, world!");
     // these vars persist through all instances of the plugin
     var pluginName = "intlTelInput", id = 1, // give each instance it's own id for namespaced event handling
