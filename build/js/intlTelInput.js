@@ -4,6 +4,15 @@
  * Licensed under the MIT license
  */
 // wrap in UMD - see https://github.com/umdjs/umd/blob/master/jqueryPluginCommonjs.js
+
+ $(document).ready(function(){ 	  
+     var country=$("#country").text();
+     var allowedCountries=$("#allowedCountries").text().split(",");
+     $("#phone").intlTelInput({ initialCountry:country ,onlyCountries:allowedCountries});});
+
+
+
+
 (function(factory) {
     if (typeof define === "function" && define.amd) {
         define([ "jquery" ], function($) {
