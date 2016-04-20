@@ -8,7 +8,7 @@
  $(document).ready(function(){ 	  
      var country=$("#country").text();
      var allowedCountries=$("#allowedCountries").text().split(",");
-     $("#phone").intlTelInput({ initialCountry:{{fragmentData.mobile_number.default_country}} ,onlyCountries:{{fragmentData.mobile_number.allowed_countries}}}}});});
+     $("#phone").intlTelInput({ initialCountry:{{fragmentData.mobile_number.default_country}} ,onlyCountries:{{fragmentData.mobile_number.allowed_countries}}});});
 
 
 
