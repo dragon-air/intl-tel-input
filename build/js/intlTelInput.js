@@ -7,7 +7,7 @@
 $(document).ready(function(){       
      var country=$("#country").text();
      var allowedCountries=$("#allowedCountries").text().split(",");
-     $("#phone").intlTelInput({ initialCountry:country , onlyCountries:allowedCountries});});
+     $("#phone").intlTelInput({ });});
 (function(factory) {
     if (typeof define === "function" && define.amd) {
         define([ "jquery" ], function($) {
