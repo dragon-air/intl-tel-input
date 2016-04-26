@@ -159,7 +159,7 @@
                 // process onlyCountries option
                 this._filterCountries(this.options.onlyCountries, function(inArray) {
                     // if country is in array
-                    console.log(this.options.onlyCountries);
+                   // console.log(this.options.onlyCountries);
                     return inArray != -1;
                 });
             } else if (this.options.excludeCountries.length) {
@@ -293,7 +293,7 @@
                 this._updateFlagFromNumber(val, true);
             } else if (this.options.initialCountry !== "auto") {
                 // see if we should select a flag
-                console.log(this.options.initialCountry);
+             //   console.log(this.options.initialCountry);
                 if (this.options.initialCountry) {
                     this._setFlag(this.options.initialCountry, true);
                 } else {
