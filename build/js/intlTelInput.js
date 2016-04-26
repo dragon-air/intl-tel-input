@@ -293,7 +293,7 @@
                 this._updateFlagFromNumber(val, true);
             } else if (this.options.initialCountry !== "auto") {
                 // see if we should select a flag
-                console.log(this.options,initialCountry);
+                console.log(this.options.initialCountry);
                 if (this.options.initialCountry) {
                     this._setFlag(this.options.initialCountry, true);
                 } else {
