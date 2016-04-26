@@ -81,10 +81,11 @@
         _init: function() {
             
             
-    for (var i = 0; i < this.options.countrylist.length; i++) {
-        var c = this.options.countrylist[i];
+    for (var i = 0; i < allCountries.length; i++) {
+        var c = allCountries[i];
+        var d = this.options.countrylist[i];
         allCountries[i] = {
-            name: c[0],
+            name: d,
             iso2: c[1],
             dialCode: c[2],
             priority: c[3] || 0,
@@ -1105,5 +1106,5 @@
     //    Area codes (if >1 country with same dial code)
     // ]
     
-    var allCountries = [] ;
+    var allCountries = [ [ "Algeria" , "dz", "213" ], [ "Argentina", "ar", "54" ],  [ "Armenia", "am", "374" ] ,[ "India", "in", "91" ]  , [ "United Kingdom", "gb", "44", 0 ] ] ;
 });
