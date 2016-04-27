@@ -17,6 +17,7 @@
 })(function($, window, document, undefined) {
     "use strict";
     // these vars persist through all instances of the plugin
+     var allCountries = [] ;
     var pluginName = "intlTelInput", id = 1, // give each instance it's own id for namespaced event handling
     defaults = {
         // whether or not to allow the dropdown
@@ -1105,7 +1106,7 @@
     //    Area codes (if >1 country with same dial code)
     // ]
     
-     var allCountries = [] ;
+    
      /*= [     [
         "country-name-AF_18341",
         "Afghanistan",
