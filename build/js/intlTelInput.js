@@ -80,7 +80,7 @@
     }
     Plugin.prototype = {
         _init: function() {
-          
+          console.log(this.log.initialCountry);
         console.log(this.options.countryList);  
         
         /*
