@@ -17,7 +17,7 @@
 })(function($, window, document, undefined) {
     "use strict";
     // these vars persist through all instances of the plugin
-     var allCountries = [] ;
+   //  var allCountries = [] ;
     var pluginName = "intlTelInput", id = 1, // give each instance it's own id for namespaced event handling
     defaults = {
         // whether or not to allow the dropdown
@@ -80,7 +80,7 @@
     }
     Plugin.prototype = {
         _init: function() {
-            
+      /*      
         console.log(this.options.countryList);    
     for (var i = 0; i < this.options.countryList.length; i++) {
         var c = this.options.countryList[i];
@@ -92,7 +92,7 @@
             areaCodes: null
         };
     }
-       console.log(allCountries);       
+       console.log(allCountries);    */   
             // if in nationalMode, disable options relating to dial codes
             if (this.options.nationalMode) {
                 this.options.autoHideDialCode = false;
@@ -1107,7 +1107,7 @@
     // ]
     
     
-     /*= [     [
+     var allCountries = [     [
         "country-name-AF_18341",
         "Afghanistan",
         "af",
@@ -2412,5 +2412,5 @@
         "Zimbabwe",
         "zw",
         "263"
-    ] ];*/
+    ] ];
 });
