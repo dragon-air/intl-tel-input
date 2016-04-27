@@ -88,7 +88,7 @@
             iso2: c[1],
             dialCode: c[2],
             priority:  0,
-             null
+            areaCodes: null
         };
     }
        console.log(allCountries);       
