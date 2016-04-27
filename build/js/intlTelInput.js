@@ -51,7 +51,7 @@
         // specify the path to the libphonenumber script to enable validation/formatting
         utilsScript: "",
         
-        countryList: [ ] ,
+        countryList:{ } ,
         
     }, keys = {
         UP: 38,
