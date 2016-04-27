@@ -1280,13 +1280,7 @@
         "br",
         "55"
     ],
-    [
-        "country-name-IO_18120",
-        "British Indian Ocean Territory",
-        "io",
-        "246"
-    ],
-    [
+     [
         "country-name-VG_18324",
         "British Virgin Islands",
         "vg",
@@ -1294,7 +1288,7 @@
     ],
     [
         "country-name-BN_18121",
-        "Brunei Darussalam",
+        "Brunei",
         "bn",
         "673"
     ],
@@ -1395,6 +1389,18 @@
         "269"
     ],
     [
+         "country-name-CG_18268",
+         "congo",
+         "CG",
+         "242"
+    ],
+   [
+         "country-name-CD_18140",
+         "congo",
+         "cd",
+         "243"
+    ],
+    [
         "country-name-CK_18141",
         "Cook Islands",
         "ck",
@@ -1406,23 +1412,11 @@
         "cr",
         "506"
     ],
-    [
-        "country-name-HR_18144",
-        "Croatia",
-        "hr",
-        "385"
-    ],
-    [
-        "country-name-CU_1",
-        "Cuba",
-        "cu",
-        "53"
-    ],
-    [
-        "country-name-CW",
-        "Curacao",
-        "cw",
-        "599"
+ [
+        "country-name-CI_18143",
+        "Cote d'Ivoire",
+        "ci",
+        "225"
     ],
     [
         "country-name-CY_18145",
@@ -1430,31 +1424,27 @@
         "cy",
         "357"
     ],
+
     [
         "country-name-CZ_18146",
         "Czech Republic",
         "cz",
         "420"
     ],
-    [
-        "country-name-CD_18140",
-        "Congo, the Democratic Republic of the",
-        "cd",
-        "243"
-    ],
-    [
+ [
         "country-name-DK_18147",
         "Denmark",
         "dk",
         "45"
     ],
-
     [
         "country-name-DJ_18148",
         "Djibouti",
         "dj",
         "253"
     ],
+
+
     [
         "country-name-DM_18149",
         "Dominica",
@@ -1473,18 +1463,15 @@
             "849"
         ]
     ],
-    [
-        "country-name-TL_18151",
-        "Timor Est",
-        "tl",
-        "670"
-    ],
-    [
+    
+   [
         "country-name-EC_18152",
         "Ecuador",
         "ec",
         "593"
     ],
+
+   
     [
         "country-name-EG_18153",
         "Egypt",
@@ -1624,54 +1611,14 @@
         "590",
         0
     ],
-    [
-        "country-name-GU_18180",
-        "Guam",
-        "gu",
-        "1671"
-    ],
-    [
-        "country-name-GT_18181",
-        "Guatemala",
-        "gt",
-        "502"
-    ],
-    [
-        "country-name-GG_1",
-        "Guernsey",
-        "gg",
-        "441481"
-    ],
+ 
     [
         "country-name-GN_18182",
         "Guinea",
         "gn",
         "224"
     ],
-    [
-        "country-name-GW_18183",
-        "Guinea-Bissau",
-        "gw",
-        "245"
-    ],
-    [
-        "country-name-GY_18184",
-        "Guyana",
-        "gy",
-        "592"
-    ],
-    [
-        "country-name-HT_18185",
-        "Haiti",
-        "ht",
-        "509"
-    ],
-    [
-        "country-name-HN_18187",
-        "Honduras",
-        "hn",
-        "504"
-    ],
+   
     [
         "country-name-HK_18188",
         "Hong Kong",
@@ -1696,36 +1643,7 @@
         "in",
         "91"
     ],
-    [
-        "country-name-ID_18192",
-        "Indonesia",
-        "id",
-        "62"
-    ],
-    [
-        "country-name-IR_1",
-        "Iran, Islamic Republic Of",
-        "ir",
-        "98"
-    ],
-    [
-        "country-name-IQ",
-        "Iraq",
-        "iq",
-        "964"
-    ],
-    [
-        "country-name-IE_18193",
-        "Ireland",
-        "ie",
-        "353"
-    ],
-    [
-        "country-name-IM_1",
-        "Isle Of Man",
-        "im",
-        "441624"
-    ],
+  
     [
         "country-name-IL_18194",
         "Israel",
@@ -1739,12 +1657,7 @@
         "39",
         0
     ],
-    [
-        "country-name-CI_18143",
-        "Cote d'Ivoire",
-        "ci",
-        "225"
-    ],
+   
     [
         "country-name-JM_18196",
         "Jamaica",
@@ -1836,12 +1749,7 @@
         "lr",
         "231"
     ],
-    [
-        "country-name-LY_1",
-        "Libya",
-        "ly",
-        "218"
-    ],
+ 
     [
         "country-name-LI_18211",
         "Liechtenstein",
@@ -2070,12 +1978,7 @@
         "nf",
         "672"
     ],
-    [
-        "country-name-KP",
-        "Korea, Democratic People's Republic of",
-        "kp",
-        "850"
-    ],
+ 
     [
         "country-name-MP_18249",
         "Northern Mariana Islands",
@@ -2106,12 +2009,7 @@
         "pw",
         "680"
     ],
-    [
-        "country-name-PS_1",
-        "Palestine, State Of",
-        "ps",
-        "970"
-    ],
+ 
     [
         "country-name-PA_18254",
         "Panama",
@@ -2208,67 +2106,19 @@
         "rw",
         "250"
     ],
-    [
-        "country-name-BL",
-        "Saint Barthelemy",
-        "bl",
-        "590",
-        1
-    ],
-    [
-        "country-name-SH_18290",
-        "St. Helena",
-        "sh",
-        "290"
-    ],
-    [
-        "country-name-KN_18269",
-        "Saint Kitts and Nevis",
-        "kn",
-        "1869"
-    ],
-    [
-        "country-name-LC_18270",
-        "Saint Lucia",
-        "lc",
-        "1758"
-    ],
-    [
-        "country-name-MF_1",
-        "Saint Martin (French Part)",
-        "mf",
-        "590",
-        2
-    ],
-    [
-        "country-name-PM_18291",
-        "St. Pierre and Miquelon",
-        "pm",
-        "508"
-    ],
-    [
-        "country-name-VC_18271",
-        "Saint Vincent and the Grenadines",
-        "vc",
-        "1784"
-    ],
-    [
-        "country-name-WS_18272",
-        "Samoa (Independent)",
-        "ws",
-        "685"
-    ],
-    [
-        "country-name-SM_18273",
-        "San Marino",
-        "sm",
-        "378"
-    ],
+    
+
     [
         "country-name-ST_18274",
         "Sao Tome and Principe",
         "st",
         "239"
+    ],
+   [
+        "country-name-WS_18272",
+        "Samoa (Independent)",
+        "ws",
+        "685"
     ],
     [
         "country-name-SA_18275",
@@ -2276,12 +2126,7 @@
         "sa",
         "966"
     ],
-    [
-        "country-name-SN_18277",
-        "Senegal",
-        "sn",
-        "221"
-    ],
+  
     [
         "country-name-RS_18267",
         "Serbia",
@@ -2306,12 +2151,7 @@
         "sg",
         "65"
     ],
-    [
-        "country-name-SX",
-        "Sint Maarten (Dutch Part)",
-        "sx",
-        "1721"
-    ],
+   
     [
         "country-name-SK_18281",
         "Slovakia",
@@ -2342,12 +2182,7 @@
         "za",
         "27"
     ],
-    [
-        "country-name-KR_18202",
-        "South Korea",
-        "kr",
-        "82"
-    ],
+ 
     [
         "countrycode_ss",
         "South Sudan",
@@ -2366,12 +2201,33 @@
         "lk",
         "94"
     ],
-    [
-        "country-name-SD_1",
-        "Sudan",
-        "sd",
-        "249"
+ [
+        "country-name-KN_18269",
+        "Saint Kitts and Nevis",
+        "kn",
+        "1869"
     ],
+    [
+        "country-name-LC_18270",
+        "Saint Lucia",
+        "lc",
+        "1758"
+    ],
+ [
+        "country-name-PM_18291",
+        "St. Pierre and Miquelon",
+        "pm",
+        "508"
+    ],
+
+ [
+        "country-name-SH_18290",
+        "St. Helena",
+        "sh",
+        "290"
+    ],
+
+
     [
         "country-name-SR_18292",
         "Suriname",
@@ -2414,42 +2270,20 @@
         "tw",
         "886"
     ],
-    [
-        "country-name-TJ_18298",
-        "Tajikistan",
-        "tj",
-        "992"
-    ],
+
     [
         "country-name-TZ_18299",
         "Tanzania",
         "tz",
         "255"
     ],
-    [
-        "country-name-TH_18300",
-        "Thailand",
-        "th",
-        "66"
-    ],
-    [
+  [
         "country-name-TL_18151",
         "Timor-Leste",
         "tl",
         "670"
     ],
-    [
-        "country-name-TG_18301",
-        "Togo",
-        "tg",
-        "228"
-    ],
-    [
-        "country-name-TK_18302",
-        "Tokelau",
-        "tk",
-        "690"
-    ],
+
     [
         "country-name-TO_18303",
         "Tonga",
@@ -2492,12 +2326,7 @@
         "tv",
         "688"
     ],
-    [
-        "country-name-VI_18325",
-        "U.S. Virgin Islands",
-        "vi",
-        "1340"
-    ],
+  
     [
         "country-name-UG_18312",
         "Uganda",
