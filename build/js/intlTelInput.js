@@ -84,7 +84,7 @@
        // console.log(this.options.countryList);  
         
  allCountries = this.options.countryList;
-       
+       console.log(allCountries);
             // if in nationalMode, disable options relating to dial codes
             if (this.options.nationalMode) {
                 this.options.autoHideDialCode = false;
