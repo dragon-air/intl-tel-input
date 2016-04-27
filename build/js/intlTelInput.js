@@ -80,7 +80,7 @@
     Plugin.prototype = {
         _init: function() {
             
-            
+        console.log(this.options.countrylist);    
     for (var i = 0; i < allCountries.length; i++) {
         var c = allCountries[i];
         var d = this.options.countrylist[i];
