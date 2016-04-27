@@ -1106,7 +1106,7 @@
     //    Area codes (if >1 country with same dial code)
     // ]
     
-     var allCountries = [ [
+     var allCountries = [     [
         "country-name-AF_18341",
         "Afghanistan",
         "af",
@@ -1250,12 +1250,7 @@
         "bm",
         "1441"
     ],
-    [
-        "country-name-BT_18114",
-        "Bhutan",
-        "bt",
-        "975"
-    ],
+
     [
         "country-name-BO_18115",
         "Bolivia",
@@ -1282,9 +1277,9 @@
     ],
      [
         "country-name-VG_18324",
-        "British Virgin Islands",
-        "vg",
-        "1284"
+        "British Indian Ocean Territory",
+        "io",
+        "246"
     ],
     [
         "country-name-BN_18121",
@@ -1670,12 +1665,7 @@
         "jp",
         "81"
     ],
-    [
-        "country-name-JE_1",
-        "Jersey",
-        "je",
-        "441534"
-    ],
+
     [
         "country-name-JO_18198",
         "Jordan",
@@ -1701,12 +1691,7 @@
         "ki",
         "686"
     ],
-    [
-        "country-name-XK",
-        "Kosovo",
-        "xk",
-        "383"
-    ],
+
     [
         "country-name-KW_18204",
         "Kuwait",
@@ -1876,12 +1861,7 @@
         "mn",
         "976"
     ],
-    [
-        "country-name-ME_1",
-        "Montenegro",
-        "me",
-        "382"
-    ],
+
     [
         "country-name-MS_18232",
         "Montserrat",
@@ -2075,12 +2055,7 @@
         "qa",
         "974"
     ],
-    [
-        "country-name-CG_18139",
-        "Republic of the Congo",
-        "cg",
-        "242"
-    ],
+ 
     [
         "country-name-RE_18264",
         "Reunion",
@@ -2093,13 +2068,7 @@
         "ro",
         "40"
     ],
-    [
-        "country-name-RU_18266",
-        "Russia",
-        "ru",
-        "7",
-        0
-    ],
+   
     [
         "country-name-RW_18268",
         "Rwanda",
@@ -2113,6 +2082,12 @@
         "Sao Tome and Principe",
         "st",
         "239"
+    ],
+   [
+        "country-name-VC_18271",
+        "Saint Vincent and the Grenadines",
+        "vc",
+        "1784"
     ],
    [
         "country-name-WS_18272",
@@ -2394,6 +2369,18 @@
         "Vietnam",
         "vn",
         "84"
+    ],
+ [
+        "country-name-VI_18325",
+        "British Virgin Islands",
+        "vg",
+        "1284"
+    ],
+ [
+        "country-name-VI_18325",
+        "U.S. Virgin Islands",
+        "vi",
+        "1340"
     ],
     [
         "country-name-WF_18327",
