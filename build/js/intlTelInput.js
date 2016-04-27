@@ -81,18 +81,17 @@
         _init: function() {
             
         console.log(this.options.countrylist);    
-    for (var i = 0; i < allCountries.length; i++) {
+    for (var i = 0; i < this.options.countrylist.length; i++) {
         var c = allCountries[i];
-        var d = this.options.countrylist[i];
         allCountries[i] = {
-            name: d,
-            iso2: c[2],
-            dialCode: c[3],
-            priority: c[4] || 0,
-            areaCodes: c[4] || null
+            name: c[0],
+            iso2: c[1],
+            dialCode: c[2],
+            //priority: c[4] || 0,
+            //areaCodes: c[4] || null
         };
     }
-            
+       console.log(allCountries);       
             // if in nationalMode, disable options relating to dial codes
             if (this.options.nationalMode) {
                 this.options.autoHideDialCode = false;
@@ -1106,7 +1105,8 @@
     //    Area codes (if >1 country with same dial code)
     // ]
     
-     var allCountries = [     [
+     var allCountries = [] ;
+     /*= [     [
         "country-name-AF_18341",
         "Afghanistan",
         "af",
@@ -2411,5 +2411,5 @@
         "Zimbabwe",
         "zw",
         "263"
-    ] ];
+    ] ];*/
 });
