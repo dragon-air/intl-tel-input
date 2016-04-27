@@ -87,8 +87,8 @@
             name: c[0],
             iso2: c[1],
             dialCode: c[2],
-            //priority: c[4] || 0,
-            //areaCodes: c[4] || null
+            priority:  0,
+             null
         };
     }
        console.log(allCountries);       
