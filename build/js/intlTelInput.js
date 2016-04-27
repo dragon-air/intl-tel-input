@@ -2423,5 +2423,6 @@
             areaCodes: c[4] || null
         };
     }
+    console.log(allCountries);
     
 });
