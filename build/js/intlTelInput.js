@@ -88,7 +88,7 @@
             name: d,
             iso2: c[2],
             dialCode: c[3],
-            priority: c[3] || 0,
+            priority: c[4] || 0,
             areaCodes: c[4] || null
         };
     }
