@@ -68,7 +68,7 @@ angular.module('ngIntlTelInput')
         }
       };
     }]);
- var ngIntlTelInputApp = angular.module('ngIntlTelInputApp', ['ngIntlTelInput'])
+ var SWIPE = angular.module('SWIPE', ['ngIntlTelInput'])
       .config(function (ngIntlTelInputProvider) {
         ngIntlTelInputProvider.set({defaultCountry: 'us'});
       });
